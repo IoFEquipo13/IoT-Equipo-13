@@ -157,5 +157,7 @@ The place where all the elements are connected, this is where the endpoints are
 	
 
 ###Plate recognition
-When the user arrives at the entrance of the parking zone, a camera will take a snapshot of their plates and will sent it to a remote server which is responsible of processing the plate and send it to the API responsible of analyze it with its preferences so it can throw results..
-This algorithm runs over ubuntu 14.04 in a server in the cloud.
+When the user arrives at the entrance of the parking zone, a camera will take a snapshot of their plates and will sent it to a remote server which is responsible of processing the plate with OpenALPR  and send it to the API responsible of analyze it with its preferences so it can detect such plates and give the output back.
+This algorithm runs over ubuntu 14.04 in an external server.
+
+OpenALPR is an open source Automatic License Plate Recognition library  that analyzes images and video streams to identify license plates.
